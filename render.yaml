@@ -1,0 +1,10 @@
+previewsEnabled: true
+services:
+  - type: web
+    name: space-ship
+    env: static
+    staticPublishPath: ./
+  - type: web
+    name: space-comet
+    env: static
+    staticPublishPath: ./
