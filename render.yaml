@@ -4,7 +4,9 @@ services:
     name: space-ship
     env: static
     staticPublishPath: ./
+    repo: https://github.com/jimthoburn/space-ship
   - type: web
     name: space-comet
     env: static
     staticPublishPath: ./
+    repo: https://github.com/jimthoburn/space-comet
