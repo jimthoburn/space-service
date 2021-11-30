@@ -1,12 +1,14 @@
 previewsEnabled: true
 services:
   - type: web
-    name: space-ship
+    name: Starfield
     env: static
-    staticPublishPath: ./
-    repo: https://github.com/jimthoburn/space-ship
+    staticPublishPath: ./starfield/
   - type: web
-    name: space-comet
+    name: Comet
     env: static
-    staticPublishPath: ./
-    repo: https://github.com/jimthoburn/space-comet
+    staticPublishPath: ./comet/
+  - type: web
+    name: Rocket
+    env: static
+    staticPublishPath: ./rocket/
