@@ -9,6 +9,6 @@ services:
     env: static
     staticPublishPath: ./comet/
   - type: web
-    name: Rocket 2
+    name: Rocket
     env: static
     staticPublishPath: ./rocket/
