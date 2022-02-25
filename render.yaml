@@ -12,3 +12,4 @@ services:
     name: Rocket
     env: static
     staticPublishPath: ./rocket/
+
