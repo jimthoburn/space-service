@@ -1,14 +1,13 @@
-previewsEnabled: true
 services:
   - type: web
     name: Starfield
     env: static
     staticPublishPath: ./starfield/
-  - type: web
-    name: Comet
-    env: static
-    staticPublishPath: ./comet/
-  - type: web
-    name: Rocket
-    env: static
-    staticPublishPath: ./rocket/
+#   - typo: web
+#     name: Comet
+#     env: static
+#     staticPublishPath: ./comet/
+#   - typo: web
+#     name: Rocket
+#     env: static
+#     staticPublishPath: ./rocket/
