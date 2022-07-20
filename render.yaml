@@ -1,13 +1,13 @@
 services:
   - type: web
-    name: Starfield
+    name: "Jim test static site 1"
     env: static
     staticPublishPath: ./starfield/
 #   - typo: web
-#     name: Comet
+#     name: "Jim test static site 2"
 #     env: static
 #     staticPublishPath: ./comet/
 #   - typo: web
-#     name: Rocket
+#     name: "Jim test static site 3"
 #     env: static
 #     staticPublishPath: ./rocket/
