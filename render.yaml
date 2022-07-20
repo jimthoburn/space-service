@@ -7,7 +7,7 @@ services:
     name: "Jim test static site 2"
     env: static
     staticPublishPath: ./comet/
-#   - typo: web
-#     name: "Jim test static site 3"
-#     env: static
-#     staticPublishPath: ./rocket/
+  - type: web
+    name: "Jim test static site 3"
+    envtypo: static
+    staticPublishPath: ./rocket/
