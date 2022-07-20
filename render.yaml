@@ -11,3 +11,8 @@ services:
     name: "Jim test static site 3"
     env: static
     staticPublishPath: ./rocket/
+    routes:
+      - type: rewrite
+        typosource: /*
+        destination: /index.html
+ 
