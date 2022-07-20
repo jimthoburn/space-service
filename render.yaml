@@ -9,5 +9,5 @@ services:
     staticPublishPath: ./comet/
   - type: web
     name: "Jim test static site 3"
-    envtypo: static
+    env: static
     staticPublishPath: ./rocket/
