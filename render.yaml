@@ -3,10 +3,10 @@ services:
     name: Starfield
     env: static
     staticPublishPath: ./starfield/
-#   - type: web
-#     name: Comet
-#     env: static
-#     staticPublishPath: ./comet/
+  - type: web
+    name: Comet
+    env: static
+    staticPublishPath: ./comet/
 #   - type: web
 #     name: Rocket
 #     env: static
