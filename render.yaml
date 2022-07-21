@@ -7,12 +7,11 @@ services:
     name: "Jim test static site 2"
     env: static
     staticPublishPath: ./comet/
-#     routes:
-#       - type: rewrite
-#         source: /*
-#         destination: /index.html
   - type: web
     name: "Jim test static site 3"
     env: static
     staticPublishPath: ./rocket/
- 
+#     routes:
+#       - type: rewrite
+#         source: /*
+#         destination: /index.html
