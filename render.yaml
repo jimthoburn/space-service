@@ -13,5 +13,5 @@ services:
     staticPublishPath: ./rocket/
     routes:
       - type: rewrite
-        source_typo: /*
-        destination_typo: /index.html
+        source: /*
+        destination: /index.html
