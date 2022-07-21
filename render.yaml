@@ -7,7 +7,7 @@ services:
     name: Comet
     env: static
     staticPublishPath: ./comet/
-#   - type: web
-#     name: Rocket
-#     env: static
-#     staticPublishPath: ./rocket/
+  - type: web
+    name: Rocket
+    env: static
+    staticPublishPath: ./rocket/
