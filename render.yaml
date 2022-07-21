@@ -2,11 +2,11 @@ services:
   - type: web
     name: Starfield
     env: static
-    staticPublishPath: ./starfield/
+    staticPublishPath: ./comet/
   - type: web
     name: Comet
     env: static
-    staticPublishPath: ./comet/
+    staticPublishPath: ./starfield/
   - type: web
     name: Rocket
     env: static
