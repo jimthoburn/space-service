@@ -3,6 +3,10 @@ services:
     name: "Jim test static site 1"
     env: static
     staticPublishPath: ./starfield/
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
   - type: web
     name: "Jim test static site 2"
     env: static
