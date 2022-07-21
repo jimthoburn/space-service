@@ -13,6 +13,6 @@ services:
     staticPublishPath: ./rocket/
     routes:
       - type: rewrite
-        typosource: /*
+        source: /*
         destination: /index.html
  
