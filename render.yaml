@@ -9,7 +9,7 @@ services:
     staticPublishPath: ./comet/
   - type: web
     name: "Jim test static site 3"
-    env: static
+    env_typo: static
     staticPublishPath: ./rocket/
     routes:
       - type: rewrite
