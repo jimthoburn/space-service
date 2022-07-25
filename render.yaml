@@ -7,7 +7,7 @@ services:
     name: Comet
     env: static
     staticPublishPath: ./comet/
-  - typo: web
+  - this_is_a_typo: web
     name: Rocket
     env: static
     staticPublishPath: ./rocket/
