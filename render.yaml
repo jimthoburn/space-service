@@ -4,13 +4,13 @@ services:
     env: static
     staticPublishPath: ./starfield/
   - type: web
-    name_typo: "Jim test static site 2"
-    env: static
+    name: "Jim test static site 2"
+    env_typo: static
     staticPublishPath: ./comet/
   - type: web
     name: "Jim test static site 3"
-    env_typo: static
-    staticPublishPath: ./rocket/
+    env: static
+    staticPublishPath_typo: ./rocket/
     routes:
       - type: rewrite
         source: /*
