@@ -5,13 +5,13 @@ services:
     staticPublishPath: ./starfield/
   - type: web
     name: "Jim test static site 2"
-    typo: static
+    env_typo: static
     staticPublishPath_typo: ./comet/
-  - type: web
+  - type_typo: web
     name: "Jim test static site 3"
     env: static
     staticPublishPath: ./rocket/
     routes:
       - type: rewrite
         source: /*
-        destination_typo: /index.html
+        destination: /index.html
