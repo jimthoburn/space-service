@@ -3,15 +3,15 @@ services:
     name: "Jim test static site 1"
     env: static
     staticPublishPath: ./starfield/
-#   - type: web
-#     name: "Jim test static site 2"
-#     env_typo: static
-#     staticPublishPath: ./comet/
-#   - type: web
-#     name: "Jim test static site 3"
-#     env: static
-#     staticPublishPath_typo: ./rocket/
-#     routes:
-#       - type: rewrite
-#         source: /*
-#         destination: /index.html
+  - type: web
+    name: "Jim test static site 2"
+    typo: static
+    staticPublishPath_typo: ./comet/
+  - type: web
+    name: "Jim test static site 3"
+    env: static
+    staticPublishPath: ./rocket/
+    routes:
+      - type: rewrite
+        source: /*
+        destination_typo: /index.html
