@@ -7,7 +7,7 @@ services:
     name: "Jim test static site 2"
     env: static
     staticPublishPath: ./comet/
-    typo_routes:
+    routes:
       - type: rewrite
         source: /*
         destination: /index.html
