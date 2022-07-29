@@ -7,7 +7,7 @@ services:
     name: "Jim test static site 2"
     env_typo: static
     staticPublishPath_typo: ./comet/
-  - typo: web
+  - type: web
     name: "Jim test static site 3"
     env: static
     staticPublishPath: ./rocket/
