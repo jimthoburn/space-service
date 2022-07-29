@@ -5,7 +5,7 @@ services:
     staticPublishPath: ./starfield/
   - type: web
     name: "Jim test static site 2"
-    env_typo: static
+    env: static
     staticPublishPath_typo: ./comet/
   - type: web
     name: "Jim test static site 3"
